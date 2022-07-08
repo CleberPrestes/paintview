@@ -1,0 +1,20 @@
+{
+
+"paints": [
+  {
+    "id": 1,
+    "title": "monaliza",
+    "author": "leonardo da vinci"
+  }
+],
+"comments": [
+  {
+    "id": 1,
+    "body": "some comment",
+    "postId": 1
+  }
+],
+"profile": {
+  "name": "typicode"
+}
+}

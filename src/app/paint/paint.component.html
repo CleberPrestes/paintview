@@ -1,0 +1,35 @@
+<h1>Pinturas Famosas</h1>
+
+<div class="inLine">
+<table *ngFor="let paint of paint" class="celulas">
+
+  <tr>
+
+    <td> <img src="{{paint.link}}" alt=""></td>
+  </tr>
+
+
+
+
+    <tr>
+      <th>{{paint.name}}</th>
+    </tr>
+    <tr>
+
+      <th>{{paint.artist}}</th>
+
+    </tr>
+    <tr>
+
+      <th>{{paint.madeIn}}</th>
+    </tr>
+
+
+
+
+
+
+</table>
+
+</div>
+
